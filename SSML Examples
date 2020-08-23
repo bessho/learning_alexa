@@ -9,6 +9,21 @@ Prosody – Use this tage to control the volume, pitch, and rate of speech.
 */
 
 <speak>
+This is how  I say it with <emphasis level="none">no emphasis</emphasis>.
+This is how  I say it with <emphasis level="moderate">moderate emphasis</emphasis>.
+This is how  I say it with <emphasis level="strong">strong emphasis</emphasis>.
+This is how  I say it with <emphasis level="reduced">reduced emphasis</emphasis>.
+</speak>
+
+<speak>
+I like to be named as <sub alias="Elizabeth">AI</sub> but most just call me Bess.
+</speak>
+
+<speak>
+I will say this is completely <say-as interpret-as="expletive">bull shit</say-as>
+</speak>
+
+<speak>
     I want to tell you a secret.
         <amazon:effect name="whispered">I am not a real human.</amazon:effect>.
     Can you believe it?
