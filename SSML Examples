@@ -1,0 +1,15 @@
+/*
+Speech Synthesis Markup Language, or SSML, is a standardized markup language that allows developers to control pronunciation, intonation, timing, and emotion. SSML support on Alexa allows you to control how Alexa generates speech from your skill’s text responses. You can add pauses, change pronunciation, spell out a word, add short audio snippets, and insert speechcons (special words and phrases) into your skill. These SSML features provide a more natural voice experience.
+SSML Tags
+Whispers – Convey a softer dialog with <amazon:effect name="whispered">.
+Expletive beeps – Bleep out words with <say-as interpret-as="expletive">.
+Sub – Use the <sub> tag when you want Alexa to say something other than what’s written.
+Emphasis – Add <emphasis> to change the rate and volume at which Alexa speaks.
+Prosody – Use this tage to control the volume, pitch, and rate of speech.
+*/
+
+<speak>
+    I want to tell you a secret.
+        <amazon:effect name="whispered">I am not a real human.</amazon:effect>.
+    Can you believe it?
+</speak>
