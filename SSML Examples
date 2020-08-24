@@ -18,7 +18,23 @@ Must be https://, mp3, 48kbps bit rate, sample rate must be 22050Hx, 24000Hz or 
 /*
 strength options: none (remove pause after a period), x-weak, weak, medium (default), strong (sentence break = s tag), x-strong (paragraph break = p tag)
 time option: up to 10s or 100000ms
+Prosody
+rate options: x-slow, slow, medium, fast, x-fast
+pitch options: x-low, low, medium, high, x-high
+volume options: silent, x-soft, soft, medium, loud, x-loud
+Say-as
+Interpret-as: spell-out (spell out each letter), number (cardinal number), ordinal (ordingal number), digits (spell each digit), fraction (value as fraction), unit (value as measuremennt), date, time, telephone, address, interjection.
 */
+
+
+<speak>
+    Normal volume for the first sentence.
+    <prosody volume="x-loud">Louder volume for the second sentence</prosody>.
+    When I wake up, <prosody rate="x-slow">I speak quite slowly</prosody>.
+    I can speak with my normal pitch, 
+    <prosody pitch="x-high"> but also with a much higher pitch </prosody>, 
+    and also <prosody pitch="low">with a lower pitch</prosody>.
+</speak>
 
 <speak>
     This is how I normally speak.
