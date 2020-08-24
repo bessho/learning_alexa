@@ -15,6 +15,11 @@ The combined total time for all audio files in the reprompt property of the resp
 Must be https://, mp3, 48kbps bit rate, sample rate must be 22050Hx, 24000Hz or 16000Hz. Use converter software to convert MP3 file to the required codec version (MPEG version 2) and bite rate (48 kbps).
 */
 
+/*
+strength options: none (remove pause after a period), x-weak, weak, medium (default), strong (sentence break = s tag), x-strong (paragraph break = p tag)
+time option: up to 10s or 100000ms
+*/
+
 <speak>
     This is how I normally speak.
     <amazon:emotion name="disappointed" intensity="high">
