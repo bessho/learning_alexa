@@ -24,8 +24,20 @@ pitch options: x-low, low, medium, high, x-high
 volume options: silent, x-soft, soft, medium, loud, x-loud
 Say-as
 Interpret-as: spell-out (spell out each letter), number (cardinal number), ordinal (ordingal number), digits (spell each digit), fraction (value as fraction), unit (value as measuremennt), date, time, telephone, address, interjection.
+English, American (en-US)
+Ivy, Joanna, Joey, Justin, Kendra, Kimberly, Matthew, Salli
 */
 
+/*
+
+https://developer.amazon.com/en-US/docs/alexa/custom-skills/ask-soundlibrary.html
+*/
+
+<speak>
+  Alexa sound library
+<audio src="soundbank://soundlibrary/scifi/amzn_sfx_scifi_alarm_04"/>
+<audio src="soundbank://soundlibrary/alarms/buzzers/buzzers_01"/>
+</speak>
 
 <speak>
     Normal volume for the first sentence.
