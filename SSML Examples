@@ -8,6 +8,15 @@ Emphasis – Add <emphasis> to change the rate and volume at which Alexa speaks.
 Prosody – Use this tage to control the volume, pitch, and rate of speech.
 */
 
+
+<speak>
+    <amazon:emotion name="excited" intensity="medium">
+        Five seconds till lift off!
+        <say-as interpret-as="digits">54321</say-as>.
+        Lift off!
+    </amazon:emotion>
+</speak>
+
 <speak>
         Here is a number <w role='amazon:VBD'>read</w> 
         as a cardinal number: 
