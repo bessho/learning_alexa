@@ -8,6 +8,41 @@ Emphasis – Add <emphasis> to change the rate and volume at which Alexa speaks.
 Prosody – Use this tage to control the volume, pitch, and rate of speech.
 */
 
+/*
+For your speech response, the audio file cannot be longer than 240 seconds.
+The combined total time for all audio files in the outputSpeech property of the response cannot be more than 240 seconds.
+The combined total time for all audio files in the reprompt property of the response cannot be more than 90 seconds.
+*/
+
+<speak>
+    This is how I normally speak.
+    <amazon:emotion name="disappointed" intensity="high">
+        This is how I speak when I am disappointed.
+        <prosody volume="x-loud">Now I am telling you I am disappointed very loudly!</prosody>
+    </amazon:emotion>
+</speak>
+
+<speak>
+    <amazon:emotion name="excited" intensity="medium">
+        Okay, let's be mindful and take a deep breath. 
+        <break time="3s"/> 
+        Now don't we feel better?
+    </amazon:emotion>
+</speak>
+
+<speak>
+    <amazon:emotion name="disappointed" intensity="high">
+        Here I am with a brain the size of a planet 
+        and they ask me to pick up a piece of paper.
+    </amazon:emotion>
+</speak>
+
+<speak>
+    <amazon:emotion name="excited" intensity="medium">
+        Christina wins this round!
+    </amazon:emotion>
+</speak>
+
 <speak>
     <voice name="Matthew">
         <amazon:domain name="news">
