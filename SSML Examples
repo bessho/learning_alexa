@@ -29,12 +29,12 @@ Ivy, Joanna, Joey, Justin, Kendra, Kimberly, Matthew, Salli
 */
 
 /*
-
+Alexa Sound Library Text to Speech
 https://developer.amazon.com/en-US/docs/alexa/custom-skills/ask-soundlibrary.html
 */
 
 <speak>
-  Alexa sound library
+  Alexa sound library audio examples
 <audio src="soundbank://soundlibrary/scifi/amzn_sfx_scifi_alarm_04"/>
 <audio src="soundbank://soundlibrary/alarms/buzzers/buzzers_01"/>
 </speak>
