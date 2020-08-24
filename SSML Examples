@@ -12,6 +12,7 @@ Prosody – Use this tage to control the volume, pitch, and rate of speech.
 For your speech response, the audio file cannot be longer than 240 seconds.
 The combined total time for all audio files in the outputSpeech property of the response cannot be more than 240 seconds.
 The combined total time for all audio files in the reprompt property of the response cannot be more than 90 seconds.
+Must be https://, mp3, 48kbps bit rate, sample rate must be 22050Hx, 24000Hz or 16000Hz. Use converter software to convert MP3 file to the required codec version (MPEG version 2) and bite rate (48 kbps).
 */
 
 <speak>
