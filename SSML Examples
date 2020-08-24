@@ -8,6 +8,42 @@ Emphasis – Add <emphasis> to change the rate and volume at which Alexa speaks.
 Prosody – Use this tage to control the volume, pitch, and rate of speech.
 */
 
+<speak>
+    <voice name="Matthew">
+        <amazon:domain name="news">
+            Latest news: The conversational and news styles are now available for the Matthew or Joanna voices!
+        </amazon:domain>
+    </voice>
+    <voice name="Joanna">
+        <amazon:domain name="conversational">
+            That was all for today. Thank you.
+        </amazon:domain>
+    </voice>
+</speak>
+
+<speak>
+    <amazon:domain name="long-form">
+        Meet Echo Dot. Our most popular Echo is now even better. 
+        With a new speaker and design, Echo Dot is a voice-controlled smart speaker with Alexa, 
+        perfect for any room. Just ask for music, news, information, and more. 
+        You can also call almost anyone and control compatible smart home devices with your voice.
+    </amazon:domain>
+</speak>
+
+<speak>
+    <amazon:domain name="music">
+        Sweet Child O' Mine by Guns N' Roses became one of their most 
+        successful singles topping the billboard Hot 100 in 1988. Slash's 
+        guitar solo on this song was ranked the 37th greatest solo of all 
+        time. Here's Sweet Child O' Mine.
+    </amazon:domain>
+</speak>
+
+<speak>
+    <amazon:domain name="news">
+        Latest news: The conversational and news styles are now available for the Matthew or Joanna voices!
+    </amazon:domain>
+</speak>
 
 <speak>
     <amazon:emotion name="excited" intensity="medium">
